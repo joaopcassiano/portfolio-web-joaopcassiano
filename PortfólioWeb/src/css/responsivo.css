@@ -1,0 +1,48 @@
+@media screen and (max-width : 1500px) {
+
+    .cabecalho ul {
+        display: none;
+    }
+
+    .home{
+        flex-direction: column;
+        height: 1200px;
+    }
+
+    .home .texts-home{
+        width: 100%;
+        padding: 0 100px;
+    }
+
+    .about-me{
+        flex-direction: column;
+        height: 1700px;
+    }
+
+    .about-me .texts-about {
+        width: 100%;
+        padding: 0 100px;
+        padding-bottom: 0%;
+    }
+
+    .my-skills .list{
+        width: 90%;
+    }
+
+    .my-skills .content{
+        font-size: 0.5em;
+    }
+    
+    .my-skills .content .description{
+        width: 250px;
+    }
+
+
+
+    .my-skills .arrows{
+        width: 90vw;
+    }
+
+
+    /* FAZER A SECTION PORTFOLIO */
+}
