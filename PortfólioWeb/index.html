@@ -24,40 +24,53 @@
 
 <body>
     <header class="cabecalho">
-        <img class="logo-cabecalho" src="./src/images/logo-joaocassiano.png" alt="Logo João Cassiano">
+        <a href="#home"><img class="logo-cabecalho" src="./src/images/logo-joaocassiano.png" alt="Logo João Cassiano"></a>
         <ul class="text-cabecalho">
-            <li class="botoes-cabecalho">
-                HOME
-            </li>
-            <li class="botoes-cabecalho">
-                ABOUT
-            </li>
-            <li class="botoes-cabecalho">
-                PORTFÓLIO
-            </li>
-            <li class="botoes-cabecalho">
-                SOCIAL
-            </li>
-            <li class="botoes-cabecalho">
-                CONTACTS
-            </li>
+            <a class="href" href="#home">
+                <li class="botoes-cabecalho">
+                    HOME
+                </li>
+            </a>
+            <a class="href" href="#about-me">
+                <li class="botoes-cabecalho">
+                    ABOUT
+                </li>    
+            </a>
+            <a  class="href" href="#skills">
+                <li class="botoes-cabecalho">
+                    MY SKILLS
+                </li>
+    
+            </a>
+            <a class="href" href="#portfolio">
+                <li class="botoes-cabecalho">
+                    PORTFÓLIO
+                </li>    
+            </a>
+            <a class="href" href="#testimonials">
+                <li class="botoes-cabecalho">
+                    SOCIAL
+                </li>    
+            </a>
+            <a class="href" href="#contact">
+                <li class="botoes-cabecalho">
+                    CONTACT
+                </li>    
+            </a>
         </ul>
     </header>
     <main>
         <!-- INÍCIO DA SECTION HOME-->
-        <section class="home">
+        <section id="home" class="home">
 
             <div class="texts-home">
                 <h1 class="text-1">
                     Hello, I'm<p style="color: #8C52FF;">João Pedro Pereira Cassiano</p>
                 </h1>
                 <h2 class="text-2">
-                    Computer science student, fascinated by the area, enthusiastic about learning<p></p>many things
-                    and
-                    becoming
-                    a good professional. Take a look at my portfolio to<p></p>follow my academic growth in the field
-                    of
-                    computing.
+                    Computer science student, fascinated by the area, enthusiastic about learning many things
+                    and becoming a good professional. Take a look at my portfolio to follow my academic growth in the
+                    field of computing.
                 </h2>
                 <div class="botoes">
                     <button class="contact-me">
@@ -72,14 +85,11 @@
                 <img class="dev-img" src="./src/images/jpapple.webp" alt="memoji-desenvolvedor">
                 <div class="social-div-home">
                     <a href="https://www.linkedin.com/in/
-    jo%C3%A3o-pedro-pereira-cassiano/" target="_blank"><img
-                            class="social-l" src="./src/images/linkedin.png" 
-    alt="linkedin"></a>
-                    <a href="mailto:joaocassiano.dev@gmail.com" 
-    target="_blank"><img class="social-g"
+    jo%C3%A3o-pedro-pereira-cassiano/" target="_blank"><img class="social-l" src="./src/images/linkedin.png"
+                            alt="linkedin"></a>
+                    <a href="mailto:joaocassiano.dev@gmail.com" target="_blank"><img class="social-g"
                             src="./src/images/gmail.png" alt="gmail"></a>
-                    <a href="https://github.com/joaopcassiano" 
-    target="_blank"><img class="social-git"
+                    <a href="https://github.com/joaopcassiano" target="_blank"><img class="social-git"
                             src="./src/images/github.png" alt="github"></a>
                 </div>
             </div>
@@ -87,7 +97,7 @@
         </section>
         <!-- FIM DA SECTION HOME-->
         <!-- INÍCIO DA SECTION ABOUT ME-->
-        <section class="about-me">
+        <section id="about-me" class="about-me">
             <div class="texts-about">
                 <h1 class="title-about">ABOUT ME</h1>
                 <h3 class="subtitle-about">
@@ -131,7 +141,7 @@
         </section>
         <!-- FIM DA SECTION ABOUT ME-->
         <!-- INÍCIO DA SECTION MY SKILLS-->
-        <section class="my-skills">
+        <section id="skills" class="my-skills">
             <div class="title-skills">
                 <h2 class="myskills">
                     My skills
@@ -333,8 +343,8 @@
                     <img src="./src/images/galeria.png" alt="">
                     <div class="conteudos-portfolio">
                         <h2 class="title-portfolio">Galeria</h2>
-                        <p class="p-portfolio"> Explore minha galeria visual, onde cada imagem<br>captura momentos
-                            significativos e projetos marcantes.<br>Cada foto é um vislumbre das minhas habilidades<br>e
+                        <p class="p-portfolio"> Explore minha galeria visual, onde cada imagem captura momentos
+                            significativos e projetos marcantes. Cada foto é um vislumbre das minhas habilidades e
                             criatividade em ação.</p>
                         <div class="buttons-portfolio">
                             <button> Saiba mais</button>
@@ -347,9 +357,9 @@
                     <img src="./src/images/certificados.png" alt="">
                     <div class="conteudos-portfolio">
                         <h2 class="title-portfolio">Certificados</h2>
-                        <p class="p-portfolio"> Descubra minha trajetória de aprendizado através de certificações<br>que
-                            validam minha expertise e compromisso com o conhecimento.<br>Cada certificado representa uma
-                            conquista significativa e um passo<br>adiante na minha jornada profissional.</p>
+                        <p class="p-portfolio"> Descubra minha trajetória de aprendizado através de certificações que
+                            validam minha expertise e compromisso com o conhecimento. Cada certificado representa uma
+                            conquista significativa e um passo adiante na minha jornada profissional.</p>
                         <div class="buttons-portfolio">
                             <button> Saiba mais</button>
                             <button> Acessar </button>
@@ -361,8 +371,8 @@
                     <img src="./src/images/portfolio.png" alt="">
                     <div class="conteudos-portfolio">
                         <h2 class="title-portfolio">Portfólio</h2>
-                        <p class="p-portfolio"> Explore uma seleção de projetos que demonstram minha dedicação<br>à
-                            excelência e criatividade. Cada item neste portfólio conta uma história<br>única de inovação
+                        <p class="p-portfolio"> Explore uma seleção de projetos que demonstram minha dedicação à
+                            excelência e criatividade. Cada item neste portfólio conta uma história única de inovação
                             e aprendizado.</p>
                         <div class="buttons-portfolio">
                             <button> Saiba mais</button>
@@ -371,43 +381,44 @@
                     </div>
                 </div>
             </div>
+            <div class="thumb-mains">
+                <div class="thumb">
+                    <div class="thumb-item">
+                        <img src="./src/images/galeriathumb.png" alt="foto-galeria">
+                        <div class="content">
+                            <h3> Galeria </h3>
+                            <p> Visite minha galeria </p>
+                        </div>
+                    </div>
 
-            <div class="thumb">
-                <div class="thumb-item">
-                    <img src="./src/images/galeriathumb.png" alt="foto-galeria">
-                    <div class="content">
-                        <h3> Galeria </h3>
-                        <p> Visite minha galeria </p>
+                    <div class="thumb-item">
+                        <img src="./src/images/certificadosthumb.png" alt="foto-certificados">
+                        <div class="content">
+                            <h3> Certificados </h3>
+                            <p> Visite meus certificados </p>
+                        </div>
+                    </div>
+
+                    <div class="thumb-item">
+                        <img src="./src/images/portfoliothumb.png" alt="foto-portfolio">
+                        <div class="content">
+                            <h3> Portfólio </h3>
+                            <p> Visite meu portfólio
+                        </div>
                     </div>
                 </div>
 
-                <div class="thumb-item">
-                    <img src="./src/images/certificadosthumb.png" alt="foto-certificados">
-                    <div class="content">
-                        <h3> Certificados </h3>
-                        <p> Visite meus certificados </p>
-                    </div>
+                <div class="setas-portfolio">
+                    <button class="back-portfolio">
+                        < </button>
+                            <button class="next-portfolio"> > </button>
                 </div>
-
-                <div class="thumb-item">
-                    <img src="./src/images/portfoliothumb.png" alt="foto-portfolio">
-                    <div class="content">
-                        <h3> Portfólio </h3>
-                        <p> Visite meu portfólio
-                    </div>
-                </div>
-            </div>
-
-            <div class="setas-portfolio">
-                <button class="back-portfolio">
-                    < </button>
-                        <button class="next-portfolio"> > </button>
             </div>
         </section>
         <!-- FIM DA SECTION PORTFOLIO-->
         <!-- INICIO DA SECTION TESTIMONIALS-->
-        <section class="testimonials">
-            <div class="testimonials-title">
+        <section id="testimonials" class="testimonials">
+            <div class="testimonials-tittle">
                 <h2 class="h2-testimonials"> Depoimentos </h2>
             </div>
             <div class="main-testimonials">
@@ -427,7 +438,6 @@
                         earum rerum temporibus dignissimos praesentium perferendis.</p>
                 </div>
 
-
                 <div class="card">
                     <img class="img-card" src="./src/images/joaocassiano.jpeg" alt="foto-testimonials">
                     <p class="text-card"><span class="quote"><i class="fa-solid fa-quote-left"></i></span><br>Lorem
@@ -446,21 +456,29 @@
 
             </div>
         </section>
-        <section class="final-contact">
+        <section id="contact" class="final-contact">
             <div class="contactme">
                 <div class="texts-contact">
                     <h2 class="contact-tittle">
                         Connect with me!
                     </h2>
                     <h3 class="contact-p">
-                        "Olá! Fico muito feliz que tenha chegado até aqui! Estou sempre aberto a novos projetos emocionantes e colaborações interessantes. Se você tem uma ideia que gostaria de transformar em realidade digital, ou simplesmente deseja conversar sobre como podemos trabalhar juntos, não hesite em entrar em contato. Estou ansioso para ouvir de você e começar a construir algo incrível juntos.
+                        Olá! Fico muito feliz que tenha chegado até aqui! Estou sempre aberto a novos projetos
+                        emocionantes e colaborações interessantes. Se você tem uma ideia que gostaria de transformar em
+                        realidade digital, ou simplesmente deseja conversar sobre como podemos trabalhar juntos, não
+                        hesite em entrar em contato. Estou ansioso para ouvir de você e começar a construir algo
+                        incrível juntos.
                     </h3>
                 </div>
                 <div class="social-contact">
-                    <a class="contactsocial" href="https://github.com/joaopcassiano" target="_blank"><i class="fa-brands fa-github"></i></a>
-                    <a class="contactsocial" href="mailto:joaocassiano.dev@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
-                    <a class="contactsocial" href="https://www.linkedin.com/in/jo%C3%A3o-pedro-pereira-cassiano/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                    <a class="contactsocial" href="https://www.instagram.com/_9joaopedro/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a class="contactsocial" href="https://github.com/joaopcassiano" target="_blank"><i
+                            class="fa-brands fa-github"></i></a>
+                    <a class="contactsocial" href="mailto:joaocassiano.dev@gmail.com" target="_blank"><i
+                            class="fa-solid fa-envelope"></i></a>
+                    <a class="contactsocial" href="https://www.linkedin.com/in/jo%C3%A3o-pedro-pereira-cassiano/"
+                        target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a class="contactsocial" href="https://www.instagram.com/_9joaopedro/" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a>
                 </div>
             </div>
         </section>

@@ -1,48 +1,188 @@
 @media screen and (max-width : 1500px) {
 
+    .about-me {
+        gap: 100px;
+        width: 100%;
+    }
+
+    .about-me .img-about .foto-jp {
+        width: 450px;
+        height: 450px;
+    }
+
+    .my-skills .list {
+        width: 70%;
+    }
+
+    .my-skills .content {
+        font-size: 1em;
+    }
+
+    .my-skills .content .description {
+        width: 500px;
+    }
+
+    .my-skills .arrows {
+        width: 80vw;
+    }
+
+    .portfolio {
+        height: 900px;
+    }
+
+    .portfolio .p-portfolio {
+        font-size: 10px;
+    }
+
+    .portfolio .thumb {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding-top: 40%;
+    }
+
+    .portfolio .setas-portfolio {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+        gap: 10px;
+        width: 300px;
+        left: 38.5%;
+    }
+
+    .testimonials-tittle {
+        margin: auto;
+        padding-top: 110px;
+    }
+
+    .main-testimonials {
+        margin: auto;
+        display: flex;
+    }
+
+}
+
+@media screen and (max-width : 1218px) {
+
+    .about-me .img-about .foto-jp {
+        width: 400px;
+        height: 400px;
+    }
+
+    .portfolio .thumb {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding-top: 52%;
+    }
+}
+
+@media screen and (max-width : 800px) {
+
     .cabecalho ul {
         display: none;
     }
 
-    .home{
+    .home {
         flex-direction: column;
         height: 1200px;
     }
 
-    .home .texts-home{
+    .home .texts-home {
         width: 100%;
         padding: 0 100px;
     }
 
-    .about-me{
+    .about-me {
         flex-direction: column;
         height: 1700px;
+        gap: 0;
     }
 
     .about-me .texts-about {
+        align-items: center;
         width: 100%;
-        padding: 0 100px;
-        padding-bottom: 0%;
     }
 
-    .my-skills .list{
+    .my-skills .list {
         width: 90%;
     }
 
-    .my-skills .content{
+    .my-skills .content {
         font-size: 0.5em;
     }
-    
-    .my-skills .content .description{
+
+    .my-skills .content .description {
         width: 250px;
     }
 
-
-
-    .my-skills .arrows{
+    .my-skills .arrows {
         width: 90vw;
     }
 
 
-    /* FAZER A SECTION PORTFOLIO */
+    .portfolio {
+        height: 1000px;
+    }
+
+    .portfolio .p-portfolio {
+        font-size: 10px;
+    }
+
+    .portfolio .thumb {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding-top: 100%
+    }
+
+    .portfolio .setas-portfolio {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+        gap: 10px;
+        width: 300px;
+        left: 30.5%;
+    }
+
+
+    .testimonials-tittle {
+        margin: auto;
+        padding-top: 200px;
+    }
+
+    .main-testimonials {
+        margin: auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-row: auto auto;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact-tittle {
+        width: 100%;
+        padding: 30px;
+    }
+
+    .contact-p {
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    .social-contact {
+        padding: 20px 30px;
+    }
 }
