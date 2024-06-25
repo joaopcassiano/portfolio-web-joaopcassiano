@@ -11,7 +11,6 @@
     a{
         text-decoration: none;
         font-family: 'Outfit', sans-serif;
-        color: white;
     }
 
     .btn-abrir-menu{
@@ -165,6 +164,7 @@
         gap: 20px;
         padding-top: 52%;
     }
+
 }
 
 @media screen and (max-width : 800px) {
@@ -206,11 +206,6 @@
         width: 90vw;
     }
 
-
-    .portfolio {
-        height: 1000px;
-    }
-
     .portfolio .p-portfolio {
         font-size: 10px;
     }
@@ -219,7 +214,10 @@
         display: flex;
         justify-content: center;
         gap: 20px;
-        padding-top: 100%
+    }
+
+    .portfolio .thumb .thumb-item{
+        align-items: end;
     }
 
     .portfolio .setas-portfolio {
@@ -227,16 +225,20 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-top: 20px;
-        gap: 10px;
-        width: 300px;
-        left: 30.5%;
+        top: 65%;
     }
 
+    .portfolio .setas-portfolio .next-portfolio{
+        width: 30px;
+        height: 30px;
+    }
 
-    .testimonials-tittle {
-        margin: auto;
-        padding-top: 200px;
+    .portfolio .setas-portfolio .back-portfolio{
+        width: 30px;
+        height: 30px;
+    }
+    .testimonials-tittle{
+        top: 100%;
     }
 
     .main-testimonials {
