@@ -10,11 +10,6 @@ body {
 
 a{
     text-decoration: none;
-    color: black;
-}
-
-a:hover{
-    color: white;
 }
 
 .efeito-txt-home , .efeito-img-home, .texts-about, .img-about, .title-skills, .list, .portfolio, .testimonials-tittle, .main-testimonials, .final-contact{
@@ -126,7 +121,7 @@ a:hover{
     font-size: 20px;
 }
 
-.contact-me {
+.home .texts-home .botoes .contact-me {
     width: 150px;
     height: 40px;
     border-radius: 25px;
@@ -139,11 +134,35 @@ a:hover{
     font-size: 16px;
 }
 
-.contact-me:hover {
+.home .texts-home .botoes .contact-me:hover {
     cursor: pointer;
     transition: ease-in-out 0.3s;
-    color: white;
     background-color: #8C52FF;
+    color: white;
+}
+
+.home .texts-home .botoes .contact-me a{
+    color: black;
+    text-decoration: none;
+}
+
+.home .texts-home .botoes .contact-me a:hover {
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+    background-color: #8C52FF;
+    color: white;
+}
+
+.home .texts-home .botoes .my-work a{
+    color: black;
+    text-decoration: none;
+}
+
+.home .texts-home .botoes .my-work a:hover {
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+    background-color: #8C52FF;
+    color: white;
 }
 
 .my-work {
@@ -573,6 +592,18 @@ a:hover{
     gap: 5px;
 }
 
+.portfolio .list-portfolio .buttons-portfolio a{
+    text-decoration: none;
+    color: black;
+}
+
+.portfolio .list-portfolio .buttons-portfolio a:hover{
+    cursor: pointer;
+    background-color: #8C52FF;
+    transition: ease-in-out 0.5s;
+    color: white;
+}
+
 .portfolio .list-portfolio .portfolio-item .buttons-portfolio button {
     border: none;
     background-color: white;
@@ -585,7 +616,7 @@ a:hover{
     border-radius: 25px;
 }
 
-.portfolio .list-portfolio .portfolio-item .buttons-portfolio button:hover {
+.portfolio .list-portfolio .portfolio-item .buttons-portfolio  button:hover {
     background-color: #8C52FF;
     color: white;
     transition: 0.7s;
@@ -656,7 +687,7 @@ a:hover{
     left: 42.5%;
 }
 
-.portfolio .setas-portfolio button {
+.portfolio .setas-portfolio a button {
     border-radius: 10px;
     border: none;
     padding: 12px 17px;
@@ -667,7 +698,7 @@ a:hover{
     font-size: 1.3em;
 }
 
-.portfolio .setas-portfolio button:hover {
+.portfolio .setas-portfolio a button:hover {
     background-color: #8C52FF;
     color: white;
     transition: 0.7s;
