@@ -20,6 +20,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <body>
@@ -60,22 +61,23 @@
             </a>
         </ul>
 
-        <div class="abrir-menu">
-            <i class="fa-solid fa-list"></i>
+        <div class="btn-abrir-menu" id="btn-menu">
+            <i class="fa-solid fa-bars"></i>
         </div>
 
-        <div class="menu-mobile">
+        <div class="menu-mobile" id="menu-mobile">
             <div class="btn-fechar">
-                <i class="fa-solid fa-xmark"></i>
+                <i class="fa-solid fa-x"></i>
             </div>
+
             <ul>
                 <a href="#home">
                     <li>
                         HOME
                     </li>
                 </a>
-                <a  href="#about-me">
-                    <li>
+                <a href="#about-me">
+                    <li> 
                         ABOUT
                     </li>
                 </a>
@@ -83,10 +85,10 @@
                     <li>
                         MY SKILLS
                     </li>
-
+    
                 </a>
                 <a href="#portfolio">
-                    <li>
+                    <li >
                         PORTFÓLIO
                     </li>
                 </a>
@@ -102,13 +104,14 @@
                 </a>
             </ul>
         </div>
-        <div class="overlay-menu"></div>
+
+        <div class="overlay-menu" id="overlay-menu"></div>
     </header>
     <main>
         <!-- INÍCIO DA SECTION HOME-->
         <section id="home" class="home">
 
-            <div class="texts-home">
+            <div class="texts-home efeito-txt-home">
                 <h1 class="text-1">
                     Hello, I'm<p style="color: #8C52FF;">João Pedro Pereira Cassiano</p>
                 </h1>
@@ -118,15 +121,13 @@
                     field of computing.
                 </h2>
                 <div class="botoes">
-                    <button class="contact-me">
-                        Contact me
+                    <button class="contact-me"><a style="text-decoration: none; color: black;" href="#contact"> Contact me </a>
                     </button>
-                    <button class="my-work">
-                        My work
+                    <button class="my-work"><a style="text-decoration: none; color: black;" href="#portfolio"> My work </a>
                     </button>
                 </div>
             </div>
-            <div class="img-home">
+            <div class="img-home efeito-img-home">
                 <img class="dev-img" src="./src/images/jpapple.webp" alt="memoji-desenvolvedor">
                 <div class="social-div-home">
                     <a href="https://www.linkedin.com/in/
@@ -392,7 +393,7 @@
                             significativos e projetos marcantes. Cada foto é um vislumbre das minhas habilidades e
                             criatividade em ação.</p>
                         <div class="buttons-portfolio">
-                            <button> Saiba mais</button>
+                            <button><a href="#contact"> Saiba mais </a></button>
                             <button> Acessar </button>
                         </div>
                     </div>
@@ -406,7 +407,7 @@
                             validam minha expertise e compromisso com o conhecimento. Cada certificado representa uma
                             conquista significativa e um passo adiante na minha jornada profissional.</p>
                         <div class="buttons-portfolio">
-                            <button> Saiba mais</button>
+                            <button><a href="#contact"> Saiba mais </a></button>
                             <button> Acessar </button>
                         </div>
                     </div>
@@ -420,7 +421,7 @@
                             excelência e criatividade. Cada item neste portfólio conta uma história única de inovação
                             e aprendizado.</p>
                         <div class="buttons-portfolio">
-                            <button> Saiba mais</button>
+                            <button><a href="#contact"> Saiba mais </a></button>
                             <button> Acessar </button>
                         </div>
                     </div>

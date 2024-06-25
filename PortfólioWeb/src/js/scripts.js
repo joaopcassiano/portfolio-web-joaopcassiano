@@ -73,3 +73,81 @@ function moveItemsOnClick(type) {
         container.classList.remove('back')
     }, 1000);
 }
+//JAVASCRIPT RELACIONADO AO CABEÇALHO MOBILE
+
+let btnMenu = document.getElementById('btn-menu')
+let menu = document.getElementById('menu-mobile')
+let overlay = document.getElementById('overlay-menu')
+
+btnMenu.addEventListener('click', () => {
+    menu.classList.add('abrir-menu')
+})
+
+menu.addEventListener('click', () => {
+    menu.classList.remove('abrir-menu')
+})
+
+overlay.addEventListener('click', () => {
+    menu.classList.remove('abrir-menu')
+})
+
+//JAVASCRIPT RELACIONADO AO SCROLL REVIEW
+
+window.revelar = ScrollReveal({reset:true})
+
+revelar.reveal('.efeito-txt-home', {
+    duration: 2000,
+    distance: '90px'
+})
+
+revelar.reveal('.efeito-img-home', {
+    duration: 2000,
+    distance: '90px',
+    delay: 500
+})
+
+revelar.reveal('.texts-about', {
+    duration: 2000,
+    distance: '90px',
+})
+
+revelar.reveal('.img-about', {
+    duration: 2000,
+    distance: '90px',
+    delay: 500
+})
+
+revelar.reveal('.title-skills', {
+    duration: 2000,
+    distance: '90px'
+})
+
+revelar.reveal('.list', {
+    duration: 2000,
+    distance: '90px',
+    delay: 500
+})
+
+revelar.reveal('.portfolio', {
+    duration: 2000,
+    distance: '90px'
+})
+
+revelar.reveal('.testimonials-tittle', {
+    duration: 2000,
+    distance: '90px'
+})
+
+revelar.reveal('.main-testimonials', {
+    duration: 2000,
+    distance: '90px',
+    delay: 500
+})
+
+revelar.reveal('.final-contact', {
+    duration: 2000,
+    distance: '90px',
+    delay: 500
+})
+
+
