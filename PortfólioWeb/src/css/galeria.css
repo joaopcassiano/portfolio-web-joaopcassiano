@@ -7,6 +7,28 @@ body{
     background-color: #070707;
 }
 
+.cabecalho {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-cabecalho {
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.item {
+    display: flex;
+    height: 650px;
+}
+
 .texts-gallery{
     gap: 20px;
     width: 100%;
@@ -16,6 +38,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-top: 150px;
 }
 
 .gallery-title{
