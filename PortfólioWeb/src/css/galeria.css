@@ -11,24 +11,29 @@ body{
     gap: 20px;
     width: 100%;
     padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .gallery-title{
     font-size: 2.2em;
-    padding-left: 200px;
+    text-align: center;
     color: #8C52FF;
     font-family: 'Outfit', sans-serif;
 }
 
 .gallery-p{
     padding-top: 20px;
-    padding-left: 200px;
+    text-align: center;
     font-size: 1.3em;
     color: white;
     font-family: 'Outfit', sans-serif;  
     width: 70%;
     padding-bottom: 50px;
-    text-align: justify;
+    text-align: center;
 }
 
 
@@ -42,7 +47,7 @@ body{
 .gallery-item{
     padding: 1em;
     background-color: white;
-    margin-bottom: 1em;
+    margin-bottom: 0.7em;
     page-break-inside: avoid;
     break-inside: avoid;
     text-align: center;
@@ -50,19 +55,38 @@ body{
     font-weight: 400px;
     font-size: 1.1rem;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
 }
 
 .gallery-item img{
     width: 100%;
 }
 
-@media (min-width: 768px) {
+.gallery-item figcaption{
+    color: #8C52FF;
+}
+
+@media screen and (max-width: 768px) {
+
+    .gallery-title{
+        font-size: 1.3em;
+    }
+    
+    .gallery-p{
+        font-size: 0.8em;
+    }
+
     .gallery-content{
-        column-count: 2;
+        width: 100%;
+        column-count: 1;
+    }
+
+    .gallery-item{
+        width: 350px;
     }
 }
 
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
     .gallery-content{
         column-count: 4;
     }
