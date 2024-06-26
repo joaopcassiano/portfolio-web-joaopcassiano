@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #070707;
+}
+
+.cabecalho {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-cabecalho {
+    width: 200px;
+    height: 50px;
+    margin: auto;
+    cursor: pointer;
+}
+
+.item {
+    display: flex;
+    height: 650px;
+}
+
+.texts-gallery{
+    gap: 20px;
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.gallery-title{
+    font-size: 2.2em;
+    text-align: center;
+    color: #8C52FF;
+    font-family: 'Outfit', sans-serif;
+}
+
+.gallery-p{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+    font-family: 'Outfit', sans-serif;  
+    width: 70%;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+
+.gallery-content{
+    width: 90%;
+    min-width: 1000px;
+    margin: 1rem auto;
+    column-count: 1;
+}
+
+.gallery-item{
+    padding: 1em;
+    background-color: white;
+    margin-bottom: 0.7em;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400px;
+    font-size: 1.1rem;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+
+.gallery-item img{
+    width: 100%;
+}
+
+.gallery-item figcaption{
+    color: #8C52FF;
+}
+
+@media screen and (max-width: 768px) {
+
+    .gallery-title{
+        font-size: 1.3em;
+    }
+    
+    .gallery-p{
+        font-size: 0.8em;
+    }
+
+    .gallery-content{
+        width: 100%;
+        column-count: 1;
+    }
+
+    .gallery-item{
+        width: 350px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .gallery-content{
+        column-count: 4;
+    }
+
+    .gallery-item:hover{
+        transform: scale(1.05, 1.05);
+        transition: 0.3s;
+        cursor: pointer;
+    }
+}
