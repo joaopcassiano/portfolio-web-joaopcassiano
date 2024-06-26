@@ -149,5 +149,3 @@ revelar.reveal('.final-contact', {
     distance: '90px',
     delay: 500
 })
-
-
